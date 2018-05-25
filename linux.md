@@ -62,4 +62,11 @@ NF                  - Number of columns in each line of the given input
 with out space we are using "==" but here we have spaces so '~' this symbole to check the column like see below
 
 $3 ~ developer
+
+---
+
+- I want to print only 1st to 3rd line how to print that simple see below
+
+> awk -F"|" 'NR==1,NR==3 {print $0}' emp_ns.txt
+
  
