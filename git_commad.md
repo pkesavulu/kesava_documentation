@@ -63,7 +63,23 @@
 
         (or)
 
-> git fetch origin		
+> git fetch origin	
+
+## remove file from git repository
+
+> git rm file1.txt
+
+> git commit -m "remove file1.txt"
+
+## But if you want to remove the file only from the Git repository and not remove it from the filesystem, use this command
+
+> git rm --cached file1.txt
+
+> git commit -m "remove file1.txt"
+
+And to push changes to remote repo
+
+> git push origin branch_name  
 
 ## creating branches
 
