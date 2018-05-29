@@ -95,3 +95,31 @@ And to push changes to remote repo
 - By defualt master branch
 - Use of branch is to change code again and agin it's not effected again and again master barnch(main branch).
 - we are doing always changes right so we created branches finaly we merge those things in to a single branch.
+
+
+## use of .gitignore file
+
+- If you want to avoid (or) ignore some file to place (or) checkin into repository at the time to create simply ".gitignore file"
+and to place what are all the file avoid in that.
+
+- Then it show only .gitignore file only.
+
+```
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        sample.txt
+
+```
+
+```
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+````
+
+- If you need more information see this [video](https://www.youtube.com/watch?v=ErJyWO8TGoM)
+ 
+
