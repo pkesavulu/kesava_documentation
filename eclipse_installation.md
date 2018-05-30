@@ -14,7 +14,7 @@
 
       1. Go to you project directory "C:\git\sos\Thales" and remove the .setting folder
       2. Go to "C:\git\sos\Thales\excel_mining" and remove the .project,.classpath and .setting folder and close eclipse.
-      3. Go to project directory (C:\git\sos\Thales) and run this command  "mvn clean compile eclipse:eclipse"
+      3. Go to project directory (C:\git\sos\Thales) and run this command "mvn clean compile eclipse:eclipse" using gitBash.
       4. Finally open the Eclipse.
 
 3. To follow the below steps to create project build path.
