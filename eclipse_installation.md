@@ -1,7 +1,7 @@
 # eclipse installation:
 ---
 
-1. download eclipse [here](https://wiki.eclipse.org/Eclipse.ini)
+1. Download eclipse [here](https://wiki.eclipse.org/Eclipse.ini)
 
 2. To add M2Eclipse plugin 
 
