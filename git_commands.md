@@ -83,7 +83,7 @@ And to push changes to remote repo
 
 ## creating branches
 
-> git branches sample_branch
+> git branch sample_branch
 
 ## how to switch to other git branch
 
