@@ -134,3 +134,15 @@ To remove a remote branch from the server:
  > git push origin --delete {the_remote_branch}
 
 ```
+
+## Git stash
+
+ > It is used to store the data in temp location
+
+```
+> git stash 
+> git stash list 
+> git stash show 
+> git stash clear
+
+```
