@@ -122,4 +122,15 @@ Untracked files:
 
 - If you need more information see this [video](https://www.youtube.com/watch?v=ErJyWO8TGoM)
  
+## How to delete branch in git
 
+```
+To remove a local branch from your machine:
+
+ > git branch -d {the_local_branch} (use -D instead to force deleting the branch without checking merged status)
+
+To remove a remote branch from the server:
+
+ > git push origin --delete {the_remote_branch}
+
+```
