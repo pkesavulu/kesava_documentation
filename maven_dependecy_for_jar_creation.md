@@ -6,10 +6,10 @@
 			<configuration>
 				<descriptorRefs>
 					<descriptorRefs>jar-with-dependencies</descriptorRefs>
-				<descriptorRefs>
+				</descriptorRefs>
 				<archive>
 					<manifest>
-						<mainClass>sos.app.CheckingRowHeader<mainClass>
+						<mainClass>com.pack.class_name</mainClass>
 					</manifest>
 				</archive>
 				<compilerArgs>
