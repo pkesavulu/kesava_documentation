@@ -1,7 +1,7 @@
 # To add this dependency in pox.ml in side of "plugin"
 ---
-
-<plugin>	
+```
+		<plugin>	
 			<artifactId>maven-assembly-plugin</artifactId>
 			<configuration>
 				<descriptorRefs>
@@ -26,7 +26,8 @@
 				</execution>
 			</executions>
 		</plugin>	
-    
+   
+```   
 > After you should run below command from project location.
  
  mvn clean install
