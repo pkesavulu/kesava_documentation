@@ -1,0 +1,14 @@
+# spring lifecycle:
+---
+
+1.init
+2.destroy
+
+> this two are interfaces to implements in pojo(model) class.
+> we use this inti method to connect db,etc..
+> we use this destry method to destory or close the db connection.
+
+use annotations(@PostConstruct and @PreDestroy):
+
+@PostConstruct -> use to initilization the db connection
+@PreDestroy -> use to destroy or close the db connection.
