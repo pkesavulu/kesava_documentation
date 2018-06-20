@@ -38,6 +38,6 @@
  
  > To run the below jar like this
  
- java -jar project_name-jar-with-dependencies.jar com.pack.class_name
+ java -jar project_name-jar-with-dependencies.jar com.pack.class_name <arguments>
  
  
