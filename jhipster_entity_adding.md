@@ -6,6 +6,11 @@
 	
 	jhipster entity ename_of_entity
 	
+```
+	Ex:-jhipster enity emp
+	
+```
+	
 
 2.To add fields names and relationships for each entity fields.(Note:- entity names start with lowercas)
 
@@ -14,6 +19,11 @@
 4. if to add are remove the existing entity field names to follow the below step
 
 		jhipster entity existing_entity_name
+		
+```
+	Ex:-jhipster enity emp
+	
+```
 	
 	4.1 choose the option regenerate entity(or) remove entity field names(or) add entity field names
 
