@@ -32,7 +32,7 @@ curl -XDELETE http://localhost:9200/india
 ### mapping:-
 ---
 
-it is use to mapping the document
+it is use to mapping the type
 
 curl -XPUT http://localhost:9200/india{"mapping":{"states":{"properties":{"name":{"type":"text"}},"district":{"name":"text"}}}}
 
