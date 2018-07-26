@@ -65,8 +65,116 @@ PUT /india/_mapping/state
       }
     }
 
+### bool query:-
+---
 
+must:-
+---
+it follows the 'and' condition
 
+GET /india/state
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "match": { "dist": "chittoor" } },
+        { "match": { "dist": "uuu" } }
+      ]
+    }
+  }
+}
+
+should:-
+---
+it follows the 'and' condition
+
+GET /india/state
+{
+  "query": {
+    "bool": {
+      "should": [
+        { "match": { "dist": "chittoor" } },
+        { "match": { "dist": "uuu" } }
+      ]
+    }
+  }
+}
+
+must_not:-
+---
+
+GET india/state/_search
+{
+  "query":{
+    "bool": {"must_not": [
+      {"match": {
+        "statename": "ap"
+      }
+      }
+    ]}
+  }
+}
+
+Filter:-
+---
+
+GET india/state/_search
+{
+  "query":{
+    "bool":{
+      "must": [
+        {"match_all": {}}
+      ]
+      , "filter": {"range": {
+        "pincode":{
+          "gte": 517501,
+		  "lte": 600000
+        }
+      }}
+    }
+  }
+}
+
+udpate perticular fied:-
+---
+
+POST india/state/105/_update
+{
+  "doc": {"pincode":"12222"}
+}
+
+bulk load:-
+---
+
+POST /india/_bulk
+
+{ "index" : {"_id" : "110","_type" : "state"} }
+{"statename":"karnataka","dist":"banglore"}
+{"index" : {"_id":"109","_type":"state"}}
+{"statename":"maharastra","dist":"munbai"}
+
+query search:-
+---
+
+GET /india/state/_search?q=chennai
+
+> In this check the state chennai matched or not.
+
+GET /india/state/_search?q=state:(ap AND tn)
+
+> In this check the both are matched or not if it is matched will display that otherwise not display.
+
+GET /india/state/_search?q=state:(ap OR tn)
+
+> In this any one right or match will display the result
+
+GET /india/state/_search?q=(state:(ap OR tn) AND dist:chittoor)
+
+> First here apply the OR condition after will apply the AND condition.
+
+GET /india/state/_search?q=statename:+utharapradesh -1235
+
+> here use to arithmetic sings.
 
 # Indices for Relations:-
 ---
