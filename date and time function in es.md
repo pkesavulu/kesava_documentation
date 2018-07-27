@@ -45,7 +45,7 @@ POST /_xpack/sql?format=json
 }
 
 Which should return something like this:
-
+```
 {
   "columns": [
     {
@@ -80,7 +80,7 @@ Which should return something like this:
     ]
   ]
 }
-
+```
 You can also use the SQL CLI. There is a script to start it shipped in x-pack’s bin directory:
 
 $ ./bin/elasticsearch-sql-cli
