@@ -8,6 +8,7 @@ Elasticsearch SQL:-
 
 To start using Elasticsearch SQL, create an index with some data:
 
+```
 PUT /library/book/_bulk?refresh
 {"index":{"_id": "Leviathan Wakes"}}
 {"name": "Leviathan Wakes", "author": "James S.A. Corey", "release_date": "2011-06-02", "page_count": 561}
@@ -15,7 +16,7 @@ PUT /library/book/_bulk?refresh
 {"name": "Hyperion", "author": "Dan Simmons", "release_date": "1989-05-26", "page_count": 482}
 {"index":{"_id": "Dune"}}
 {"name": "Dune", "author": "Frank Herbert", "release_date": "1965-06-01", "page_count": 604}
-
+```
 And now you can execute SQL using the SQL REST API right away:
 
 how to produce output like table:-
