@@ -7,7 +7,7 @@
   [mysql](https://dev.mysql.com/downloads/)
 
 - To choose the "MySQL Community Server" and click the download button. it is re-direct to here "https://dev.mysql.com/downloads/mysql/" 
-- Next choose the operating system(like windows) and click the Go to Download Page.
+- Next choose the operating system(like windows) and click the "Go to Download Page button".
 - There choose the first one like 
 <Windows (x86, 32-bit), MSI Installer> it is 15.8 MB and click the download button the download will start.
 - After downloading to install the mysql installer software.
