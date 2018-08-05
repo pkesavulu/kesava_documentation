@@ -7,10 +7,10 @@
   [mysql](https://dev.mysql.com/downloads/)
 
 - To choose the "MySQL Community Server" and click the download button. it is re-direct to here "https://dev.mysql.com/downloads/mysql/" 
-- Next choose the operating system(like windows) and click the Go to Download Page.
+- Next choose the operating system(like windows) and click the "Go to Download Page".
 - There choose the first one like 
 <Windows (x86, 32-bit), MSI Installer> it is 15.8 MB and click the download button the download will start.
-- After downloading to install the mysql installer software.
+- Once download process completes try to install the "mysql installer software".
 - To double click on the mysql installer software and choose the custome one.
 - Next MySql Server -> the mysql server -> mysql server 5.7.20 -x64 choose and click the add button. Finally click the Next button. 
 - Next check Requirements window opened to choose MySql server 5.7.20 Microsoft visual C++ 2013 and click the execute button below.
