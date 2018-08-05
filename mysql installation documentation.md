@@ -17,21 +17,21 @@
 - Then "product configuration" tab will appear to click next button for configuration and choose the standalone MYSQL Server in Group        Replication and click the next button.
 - Then choose the "configuration type" is Development computer and change the port number "6600" in Type and Networking tab and finally click the next button.
 - Then choose the "Authentication Method" type is use Strong Password Encryption for Authentication in Authentication Method and finally click the next button.
-- Then set the Root Account Password as "thalesadmin" and create new MySql user same as like below.
+- Then set the Root Account Password as "xxxx" and create new MySql user same as like below.
 
 ```
 Username    : thales
 Host        : localhost
 Role        : DB Admin
 Authentication:Mysql
-Password    : thalesadmin
-confirmation Password : thalesadmin
+Password    : xxxx
+confirmation Password : xxxx
 
 ```
 - Then set Windows service Name as "MySQL80" and click the Next button.
 - Finally click the Execute button in "Apply configuration" tab and click the Finish button.
 - Then "MySql Router Configuration" tab will appear to if it is require try to configure otherwise to click finish button.
-- After "Connect To Server" tab will appear try set user as thales and password as thalesadmin to click the check button to check the connection succeeded or not and click the Next button.
+- After "Connect To Server" tab will appear try set user as thales and password as xxxx to click the check button to check the connection succeeded or not and click the Next button.
 - Then "Apply configuration" tab will appear try to click execute button and finally click the finish button.
 - Finally to click the finish button in "installation complete" tab we are done the all installation process successfully. 
 
