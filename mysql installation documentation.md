@@ -30,7 +30,7 @@ confirmation Password : xxxx
 ```
 - Then set Windows service Name as "MySQL80" and click the Next button.
 - Finally click the Execute button in "Apply configuration" tab and click the Finish button.
-- Then "MySql Router Configuration" tab will appear to if it is require try to configure otherwise to click finish button.
+- Then "MySql Router Configuration" tab will appear to if it's require try to configure otherwise to click finish button.
 - After "Connect To Server" tab will appear try set user as thales and password as xxxx to click the check button to check the connection succeeded or not and click the Next button.
 - Then "Apply configuration" tab will appear try to click execute button and finally click the finish button.
 - Finally to click the finish button in "installation complete" tab we are done the all installation process successfully. 
