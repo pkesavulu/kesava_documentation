@@ -12,27 +12,28 @@
 <Windows (x86, 32-bit), MSI Installer> it is 15.8 MB and click the download button the download will start.
 - Once download process completes try to install the "mysql installer web community software".
 - First step accept the licence Agreement and click the next button. 
-- Choose the setup type as Developer Defualt and click the next button.
-- Next to set the path for install Directory(C:\apps\mysql Server 8.0) & Data Directory(C:\apps\mysql Server 8.0\mysql data).
-- Next click the Execute button installation process will start. 
-- Next check Requirements window opened to choose MySql server 5.7.20 Microsoft visual C++ 2013 and click the execute button below.
-- After Exection to click the Next button to open installation window and choose the MySql server 5.7.20 and click the exectue button.
-- After completion to click next.... here open Type and Networking windown to change the config type as Development machine and  port number 6600 and click the Next button.
-- Accounts and Roles window opened by defual username is (root) to set the MySql root Password and repeate password as (root) and to add use click the AddUser button.
+- Next Choose the setup type is "Developer Defualt" and click the next button.
+- Next to set the path for install Directory(C:\apps\mysql Server 8.0) & Data Directory(C:\apps\mysql Server 8.0\mysql data) then click the Execute button the installation process will start. Once the installation process completed then click Next button.
+- Then "product configuration" tab will appear to click next button for configuration and choose the standalone MYSQL Server in Group        Replication and click the next button.
+- Then choose the "configuration type" is Development computer and change the port number "6600" in Type and Networking tab and finally click the next button.
+- Then choose the "Authentication Method" type is use Strong Password Encryption for Authentication in Authentication Method and finally click the next button.
+- Then set the Root Account Password as "thalesadmin" and create new MySql user same as like below.
 
 ```
-Username    : kesavulu
+Username    : thales
 Host        : localhost
 Role        : DB Admin
-Password    : root
-confirmation Password : root
+Authentication:Mysql
+Password    : thalesadmin
+confirmation Password : thalesadmin
 
 ```
-- Then you click the Next->Next->Execute->Finsh->Next->Finsh.
-- That's it installation completed successfully.
-
-> If you want mysql installation video click here 
-  [mysql](https://www.youtube.com/watch?v=-eqca-J7Qbs)
+- Then set Windows service Name as "MySQL80" and click the Next button.
+- Finally click the Execute button in "Apply configuration" tab and click the Finish button.
+- Then "MySql Router Configuration" tab will appear to if it is require try to configure otherwise to click finish button.
+- After "Connect To Server" tab will appear try set user as thales and password as thalesadmin to click the check button to check the connection succeeded or not and click the Next button.
+- Then "Apply configuration" tab will appear try to click execute button and finally click the finish button.
+- Finally to click the finish button in "installation complete" tab we are done the all installation process successfully. 
 
 
 
