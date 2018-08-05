@@ -6,6 +6,7 @@ entity class for db tables:-
 2. Once this process complete try to copy .jh files and past into jdlfiles directory in our jhipster project(create:jdlfiles directory manually in jhipster project)
 3. open gitbash point out our jhipster project directory(ex:-/e/jhipsterProjectall/elasticsearchwithjhispter).
 4. To create entity class in jhipster simply run this command(jhipster import-jdl sample1.jh smaple2.jh) it's created entity classes for db tables.
+	>Ex: jhispter import-jdl employee.jh 
 5. Once we created entity class open h2db rename the existing table name as entity class table name.
 	> syntax:- ALTER TABLE <existing_table> RENAME TO <entity_class_table>;
 	> Ex:- ALTER TABLE EMP_ RENAME TO EMP;
