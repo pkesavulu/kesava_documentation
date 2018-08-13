@@ -16,8 +16,6 @@ entity class for db tables:-
 	> syntax:- ALTER TABLE <existing_table> RENAME TO <entity_class_table>;
 	
 	> Ex:- ALTER TABLE EMP_ RENAME TO EMP;
-				(or)
-	> ALTER TABLE additionaldbforjuniperxlsxsheet_1 ADD ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
 	
 	> NOTE:- if you want entity class table name try to check here {com.elastic.jhipster.domain) in our jhipster project.
 6. After table created try to add "ID" column into table.
@@ -25,6 +23,11 @@ entity class for db tables:-
 	> syntax:- ALTER TABLE <table_name> ADD COLUMN <column_name> <data_type>;
 	
 	> Ex:- ALTER TABLE EMP ADD COLUMN ID INT NOT NULL AUTO_INCREMENT;
+	
+				(or)
+				
+	> ALTER TABLE EMP ADD ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+	
 	
 7. Finally run the jhipster project via eclipse (or) via cmd using mvnw command (or) to run via git bash using mvn command. To chcek this project in our browser using localhost:8080.
  
