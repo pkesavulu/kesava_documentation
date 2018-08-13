@@ -6,7 +6,7 @@ entity class for db tables:-
 	> location for .jh files -> C:\git\sos\thales\excel_mining\jdlfiles
 	
 2. Once this process complete try to copy .jh files and past into jdlfiles directory in our jhipster project(create:jdlfiles directory manually in jhipster project)
-3. open gitbash go to our jhipster project location(ex:-/e/jhipsterProjectall/elasticsearchwithjhispter).
+3. open gitbash and root it our jhipster project location(ex:-/e/jhipsterProjectall/elasticsearchwithjhispter).
 4. To create entity class in jhipster simply run this command(jhipster import-jdl sample1.jh smaple2.jh) it's created entity classes for db tables.
 
 	> Ex: jhispter import-jdl employee.jh 
