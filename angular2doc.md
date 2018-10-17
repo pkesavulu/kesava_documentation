@@ -53,21 +53,26 @@ TypeScript is supported by several code editors:-
 
 Introduction to Angular 2
 ---
-
 Angular 1 was released in October 2010, and by far the most popular JavaScript framework available for creating web applications. Many developers are already using Angular 1, so the obvious question that comes to our mind is why should we use Angular 2. 
 
 Angular 2 is not a simple upgrade from angular 1. Angular 2 is completely rewritten, so it has lot of improvements when compared with Angular 1. Let's look at a few of these improvements. 
 
 
 
-Performance : From a performance standpoint, Angular 2 has faster initial loads, change detection, and improved rendering time. Not just performance, we also have improved modularity, Dependency injection and testability. According to angular conference meetup, Angular 2 is 5 times faster compared to AngularJS 1. 
+Performance : 
 ---
+From a performance standpoint, Angular 2 has faster initial loads, change detection, and improved rendering time. Not just performance, we also have improved modularity, Dependency injection and testability. According to angular conference meetup, Angular 2 is 5 times faster compared to AngularJS 1. 
 
 
-Mobile Support : Angular 1 was not built for mobile devices. It is possible to run Angular 1 on mobile but we will have to use other frameworks. Angular 2 on the other hand is designed from the ground up with mobile support. Mobile device features and limitations like touch interfaces, limited screen real estate, and mobile hardware have all been considered in Angular 2. So with Angular 2 we can build a single application that works across mobile and desktop devices.
+
+Mobile Support : 
 ---
-Component Based Development : Component based web development is the future of web development. In Angular 2, "everything is a component". Components are the building blocks of an Angular application. The advantage of the component-based approach is that, it facilitates greater code reuse. From unit testing standpoint, the use of components make Angular2 more testable. We will discuss what a component is and how to build components with examples in detail, in our upcoming videos. 
+Angular 1 was not built for mobile devices. It is possible to run Angular 1 on mobile but we will have to use other frameworks. Angular 2 on the other hand is designed from the ground up with mobile support. Mobile device features and limitations like touch interfaces, limited screen real estate, and mobile hardware have all been considered in Angular 2. So with Angular 2 we can build a single application that works across mobile and desktop devices.
+
+Component Based Development : 
 ---
+Component based web development is the future of web development. In Angular 2, "everything is a component". Components are the building blocks of an Angular application. The advantage of the component-based approach is that, it facilitates greater code reuse. From unit testing standpoint, the use of components make Angular2 more testable. We will discuss what a component is and how to build components with examples in detail, in our upcoming videos. 
+
 More language choices : There are several languages that we can use to develop Angular applications. To name a few, we have
 ---
 1. ECMAScript 5
@@ -80,15 +85,18 @@ Angular 2 itself, is built using TypeScript. TypeScript has great support of ECM
 1. What is ECMAScript 
 2. Wha is Type Script
 
-What is ECMAScript : The JavaScript language standard is officially called ECMAScript. Over the past several years many versions of ECMAScript were released starting with ECMAScript version 1 all the way till ECMAScript version 7.
+What is ECMAScript : 
 ---
+The JavaScript language standard is officially called ECMAScript. Over the past several years many versions of ECMAScript were released starting with ECMAScript version 1 all the way till ECMAScript version 7.
 
 Most of the modern browsers available today support ECMAScript 5. The browser support for ECMAScript 6 is still incomplete. However, using a process called Transpilation, ECMAScript 6 can be converted to ECMAScript 5 which is supported by all the modern browsers. ECMAScript 6 is officially known as ECMAScript 2015. ECMAScript 2015 introduced several new features like classes, modules, arrow functions etc.
 
 If you are interested in reading more about the ECMAScript standard and what these different versions of ECMAScript have to offer, please refer to the the following Wikipedia article.
 https://en.wikipedia.org/wiki/ECMAScript
 
-Wha is Type Script : TypeScript is a free and open-source programming language developed by Microsoft. It is a superset of JavaScript and compiles to JavaScript through a process called transpilation. Using TypeScript to build angular applications provides several benefits.
+Wha is Type Script : 
+---
+TypeScript is a free and open-source programming language developed by Microsoft. It is a superset of JavaScript and compiles to JavaScript through a process called transpilation. Using TypeScript to build angular applications provides several benefits.
 1. Intellisense 
 2. Autocompletion
 3. Code navigation
