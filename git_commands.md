@@ -146,3 +146,12 @@ To remove a remote branch from the server:
 > git stash clear
 
 ```
+
+## Get deleted files back with git pull
+
+> You can reset local branch to what's at remote
+
+```
+git reset --hard origin/master
+
+```
