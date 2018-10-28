@@ -152,6 +152,6 @@ To remove a remote branch from the server:
 > You can reset local branch to what's at remote
 
 ```
-git reset --hard origin/master
+> git reset --hard origin/master
 
 ```
