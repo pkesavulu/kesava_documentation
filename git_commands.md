@@ -155,3 +155,21 @@ To remove a remote branch from the server:
 > git reset --hard origin/master
 
 ```
+## How to deleted directory in git 
+
+> try the below command to deleted directory
+
+```
+systax:- 
+
+git rm -r <folder_name>
+
+```
+```
+example:-
+---
+> git rm -r TUI
+> git commit -m "Remove directory"   
+> git push -u origin master
+
+```
