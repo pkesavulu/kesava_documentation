@@ -163,12 +163,14 @@ To remove a remote branch from the server:
 systax:- 
 
 git rm -r <folder_name>
+git rm -r --cached <folder_name>
+
 
 ```
 ```
 example:-
 ---
-> git rm -r TUI
+> git rm -r TUI  (or)   git rm -r --cached TUI
 > git commit -m "Remove directory"   
 > git push -u origin master
 
