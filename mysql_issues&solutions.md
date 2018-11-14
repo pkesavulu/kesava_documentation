@@ -20,11 +20,11 @@ syntax:-
 ---
 
 ```
-GRANT ALL ON *.* TO 'someuser'@'somehost';   // use this for all permissions
+GRANT ALL ON *.* TO 'someuser'@'somehost';   // if required all the permissions like (insert,select,etc..) for all the mysql databases.
 ```
 
 ```
-GRANT SELECT, INSERT ON *.* TO 'someuser'@'somehost';  // use this for only select and insert permissions
+GRANT SELECT, INSERT ON *.* TO 'someuser'@'somehost';  // if required only select and insert permissions for all the mysql databases
 ```
 
 Database Privileges:-
