@@ -36,7 +36,7 @@ confirmation Password : root
 
 - C:\Program Files\MySQL\MySQL Server 8.0\bin // Copy this path from window "LocalDisk C" location.
 - Open environment variable into a system properties and edit Path in User variable.
-- User variable -> click Path-> Edit -> opened Environment variable dialogbox -> click New button -> Past that <path> here -> click ok button -> again click ok button. 
+- Right click mycomputer ->click Adavnced system settings -> Opened system properties Dailogbox -> Click Advanced tab -> Click Environment variable -> User variable -> click Path-> Edit -> opened Environment variable dialogbox -> click New button -> Past that <path> here -> click ok button -> again click ok button. 
 
 
 
