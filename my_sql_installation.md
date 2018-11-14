@@ -31,6 +31,14 @@ confirmation Password : root
 
 > If you want mysql installation video click here 
   [mysql](https://www.youtube.com/watch?v=-eqca-J7Qbs)
+  
+# mysql path setting:- 
+
+- C:\Program Files\MySQL\MySQL Server 8.0\bin // Copy this path from window "LocalDisk C" location.
+- Open environment variable into a system properties and edit Path in User variable.
+- User variable -> click Path-> Edit -> opened Environment variable dialogbox -> click New button -> Past that <path> here -> click ok button -> again click ok button. 
+
+
 
 
 
