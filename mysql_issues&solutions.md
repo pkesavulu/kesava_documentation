@@ -65,4 +65,12 @@ GRANT SELECT (col1), INSERT (col1, col2) ON mydb.mytbl TO 'someuser'@'somehost';
 ```
 
 
-if you required more information try to follow this links : https://dev.mysql.com/doc/refman/5.7/en/grant.html , https://dev.mysql.com/doc/refman/5.7/en/create-user.html , https://dev.mysql.com/doc/refman/8.0/en/show-grants.html , https://chartio.com/resources/tutorials/how-to-grant-all-privileges-on-a-database-in-mysql/
+if you required more information try to follow the below links : 
+
+https://dev.mysql.com/doc/refman/5.7/en/grant.html ,
+
+https://dev.mysql.com/doc/refman/5.7/en/create-user.html , 
+
+https://dev.mysql.com/doc/refman/8.0/en/show-grants.html , 
+
+https://chartio.com/resources/tutorials/how-to-grant-all-privileges-on-a-database-in-mysql/
