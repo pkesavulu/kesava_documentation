@@ -25,3 +25,13 @@ Range("D2").Select
 Selection.AutoFill Destination:=Range("D2:" & fillcell & ""), Type:=xlFillDefault
 Range("D2:" & fillcell & "").Select
 End Sub
+
+
+Note:-
+---
+To follow the below steps to enable variabe in to a macros.
+
+1. Go to the Tool Menu in microsoft visual basic application.
+2. click options.
+3. Tick the Required variable declaration.
+4. click ok button.
