@@ -1,0 +1,27 @@
+vba script use to detection the duplicate at entry of the cell
+---
+
+Sub cheking()
+Range("d2").Select
+Dim ss As String
+Range("c1").End(xlDown).Select
+ActiveCell.Offset(0, 1).Select
+Dim fillcell As String
+fillcell = ActiveCell.Address
+'Range("d2:" & fillcell & "").FillDown
+'Selection.AutoFill Destination:=Range("D2:" & fillcell & ""), Type:=xlFillDefault
+Range("a1").End(xlDown).Select
+Dim Name As String
+ActiveCell.Offset(1, 0).Select
+Name = ActiveCell.Address
+ActiveCell.Offset(0, 1).Select
+Dim Phoneno As String
+Phoneno = ActiveCell.Address
+ActiveCell.Offset(0, 1).Select
+Dim Mailid As String
+Mailid = ActiveCell.Address
+Range("d2").Formula = "=countif(a2:c2," & Name & ")+countif(a2:c2," & Phoneno & ")+countif(a2:c2," & Mailid & ")"
+Range("D2").Select
+Selection.AutoFill Destination:=Range("D2:" & fillcell & ""), Type:=xlFillDefault
+Range("D2:" & fillcell & "").Select
+End Sub
