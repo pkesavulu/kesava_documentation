@@ -216,6 +216,7 @@ Author: pkesavulu <pkesavulu.91@gmail.com>
 Date:   Mon Nov 12 12:20:20 2018 +0530
 
 
-> git checkout a4aaf8219edf7602273acb787e2438eeb6c6c97f --> The repositry go to the last commit id index like it's go to the last commit 
+> git checkout a4aaf8219edf7602273acb787e2438eeb6c6c97f --> The repositry change into the last commit id like it's go to the perticular  commit id changes what we mentioned.
+
 
 ```
