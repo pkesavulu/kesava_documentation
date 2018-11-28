@@ -241,6 +241,8 @@ remote code
 
 > All conflicts are fixed and local changes also automatically fixed.
 
+> video link : https://www.youtube.com/watch?v=JtIX3HJKwfo&pbjreload=10
+
 ## git basic commands 
 
 > Try to refer this link for basic git commands https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
