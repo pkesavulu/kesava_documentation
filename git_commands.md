@@ -240,3 +240,7 @@ remote code
 > Next try to commit this code in local machine use this command :git commit -m "chaged confict code"
 
 > All conflicts are fixed and local changes also automatically fixed.
+
+## git basic commands 
+
+> if you want git basic commands try to click this link https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
