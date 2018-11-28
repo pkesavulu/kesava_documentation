@@ -243,4 +243,4 @@ remote code
 
 ## git basic commands 
 
-> if you want git basic commands try to click this link https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+> if you want git basic commands try to refer this link https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
