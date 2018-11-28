@@ -160,7 +160,7 @@ To remove a remote branch from the server:
 > try the below command to deleted directory
 
 ```
-systax:- 
+synax:- 
 
 git rm -r <folder_name>
 git rm -r --cached <folder_name>
@@ -173,5 +173,23 @@ example:-
 > git rm -r TUI  (or)   git rm -r --cached TUI
 > git commit -m "Remove directory"   
 > git push -u origin master
+
+```
+## How to go last commit
+
+> use this command to switch into previous index in git 
+
+```
+syntax:-
+
+git log (it display the last commits with id)
+git checkout <id>
+
+```
+```
+example:-
+---
+
+> git log 
 
 ```
