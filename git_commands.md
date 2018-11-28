@@ -239,4 +239,4 @@ remote code
 
 > Next try to commit this code in local machine use this command :git commit -m "chaged confict code"
 
-> all conflicts are fixed.
+> All conflicts are fixed and local changes also automatically fixed.
