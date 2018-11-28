@@ -235,6 +235,8 @@ remote code
 >>>>>>> a4aaf8219edf7602273acb787e2438eeb6c6c97f
 
 ```
-> try to check changes like if you like you logic try to place as same and remove remote logic, other wise remove your logic and use git add -A or git add .
+> try to check changes like if you like you logic try to place as same and remove remote logic, other wise remove your local logic and use git add -A or git add .
+
 > Next try to commit this code in local machine use this command :git commit -m "chaged confict code"
+
 > all conflicts are fixed.
