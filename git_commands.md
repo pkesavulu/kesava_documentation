@@ -218,5 +218,23 @@ Date:   Mon Nov 12 12:20:20 2018 +0530
 
 > git checkout a4aaf8219edf7602273acb787e2438eeb6c6c97f --> The repositry change into the last commit id like it's go to the perticular  commit id changes what we mentioned.
 
+now it's change as like current changes
 
 ```
+
+
+## Automatic merge failed; fix conflicts and then commit the result problem
+
+> try to check your code first what are all the class has conflict.
+```
+If you have questions, please
+<<<<<<< HEAD
+your local machine code
+=======
+remote code
+>>>>>>> a4aaf8219edf7602273acb787e2438eeb6c6c97f
+
+```
+> try to check changes like if you like you logic try to place as same and remove remote logic, other wise remove your logic and use git add -A or git add .
+> Next try to commit this code in local machine use this command :git commit -m "chaged confict code"
+> all conflicts are fixed.
