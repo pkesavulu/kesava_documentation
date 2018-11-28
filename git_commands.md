@@ -1,4 +1,4 @@
-# Git basic commands:
+# Git commands:
 ---
 
 ## set the git username
