@@ -192,4 +192,30 @@ example:-
 
 > git log 
 
+commit 4c1f23c8a655295a6f88953d8d8b3613d1783e90 (HEAD -> kesava) --> it means local machine
+Merge: b0a1b8c a4aaf82
+Author: pkesavulu <pkesavulu.91@gmail.com>
+Date:   Wed Nov 28 13:16:04 2018 +0530
+
+    changed conflict files
+
+commit a4aaf8219edf7602273acb787e2438eeb6c6c97f (origin/kesava) --> it means remote machine
+Author: pkesavulu <pkesavulu.91@gmail.com>
+Date:   Mon Nov 12 12:30:16 2018 +0530
+
+    Removed ThalesJhipsterUI
+
+commit b0a1b8c7b02d24b7d3e318587cf67a923860055d
+Author: pkesavulu <pkesavulu.91@gmail.com>
+Date:   Mon Nov 12 12:27:03 2018 +0530
+
+    ThalesJhipsterUI
+
+commit 4e7a6c29a7c883c3646754bc6e2b2caffcf74a71
+Author: pkesavulu <pkesavulu.91@gmail.com>
+Date:   Mon Nov 12 12:20:20 2018 +0530
+
+
+> git checkout a4aaf8219edf7602273acb787e2438eeb6c6c97f --> The repositry go to the last commit id index like it's go to the last commit 
+
 ```
