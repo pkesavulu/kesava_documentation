@@ -36,7 +36,7 @@
  
  project_name-jar-with-dependencies.jar
  
- > To run the below jar like this https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven
+ > To run the below jar like this 
  
  java -jar project_name-jar-with-dependencies.jar com.pack.class_name <arguments>
  
@@ -74,4 +74,4 @@
 
 > mvn clean package shade:shade
 
-> if you need more information try to click this link 
+> if you need more information try to click this link https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven
