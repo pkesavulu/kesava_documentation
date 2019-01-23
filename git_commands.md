@@ -147,7 +147,7 @@ To remove a remote branch from the server:
 
 ```
 
-## Get deleted files back with git pull
+## Get back last commit and pushed data from git and stored into a local machine 
 
 > You can reset local branch to what's at remote
 
