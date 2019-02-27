@@ -1,4 +1,6 @@
+```
 Sub chekingCells()
+
 Range("d2").Select
 Dim ss As String
 Range("c1").End(xlDown).Select
@@ -212,7 +214,7 @@ Sub Macrof2222()
 End Sub
 
 ------------------
-
+```
 perfectly working code:-
 ---
 
