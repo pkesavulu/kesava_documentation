@@ -175,8 +175,6 @@ https://www.pexels.com/photo/white-and-yellow-flower-with-green-stems-36764/
 
 ![image][profile]
 
-![data1](https://github.com/pkesavulu/kesava_documentation/blob/master/storage.JPG)
-
 ---
 
 ## code
