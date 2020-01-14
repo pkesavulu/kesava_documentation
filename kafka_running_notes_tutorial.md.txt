@@ -1,0 +1,17 @@
+kafka:-
+---
+ 
+1. kafka is developed by linkedIn.
+2.kafka is opensource(2011) 
+3. It is distributed streaming platform
+4. producer(publisher) --> message produced
+5. consumer --> collecting messages from broker
+6. message broker is mediator.
+7. kafka data is arrayofbytes.
+8. producer just send data to server using server but not send to consumer.
+9. Same as consumer consumes data what ever consumer wants.
+10. topic,partitions,consumer group,kafka cluster.
+11. topics -> message send through tops.
+12. partitions -> divided topics into partitions because sometime top size will increase for that we divided like partitions and stored into different brokers.
+13. kafka cluster-> it contians no.of brokers.(each broker is one physical machine)
+14. consumer group-> group of consumer consumes messages then work load get down.
